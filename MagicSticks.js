@@ -244,7 +244,7 @@ function modTick()
  function update() {
     try {
         // download content
-        var url = new java.net.URL("https://raw.githubusercontent.com/peacestorm/ModPE-scripts/master/version/agamer-moreoptionspe-version");
+        var url = new java.net.URL("example");
         var connection = url.openConnection();
 
         // get content
